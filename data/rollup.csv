@@ -1,0 +1,9 @@
+guid,ip,sesid,pgid,jpout,acc_tml,deviceType,province,isnew
+1,IP1,s1,a,N,200,MI5,山西省,1
+3,IP1,s1,b,N,200,MI5,山西省,1
+1,IP1,s1,c,N,300,MI5,山西省,1
+4,IP2,s2,a,Y,400,MI5,山西省,0
+3,IP3,s3,a,N,300,MI6,台湾省,1
+3,IP3,s3,b,N,500,MI6,台湾省,1
+2,IP3,s3,c,N,100,MI6,台湾省,0
+1,IP3,s3,c,N,600,MI6,台湾省,0
