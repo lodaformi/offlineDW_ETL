@@ -301,7 +301,7 @@ object OdsApp2DwdApp_v1 {
 						//如果bean.filledAccount ！= null则表示是新设备，新注册用户
 						val key = if (bean.filledAccount == null) bean.deviceId else bean.filledAccount
 
-						//讲guid添加到redis
+						//将guid添加到redis
 						jedis.set(key, newGuid + "")
 						bean.guid = newGuid.toLong
 					}

@@ -47,7 +47,7 @@ object DateUtil {
 	def main(args: Array[String]): Unit = {
 //		println(LocalDate.now())
 //		println(LocalDate.now().toString)
-		getNextDate("2021-02-01")
-		getLastDate("2021-02-01")
+		println(getNextDate("2021-02-01"))
+		println(getLastDate("2021-02-01"))
 	}
 }
